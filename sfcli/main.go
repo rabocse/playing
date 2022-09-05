@@ -1,6 +1,10 @@
 package main
 
-import "net/http"
+import (
+	"net/http"
+
+	"github.com/rabocse/playing/sftool"
+)
 
 func main() {
 
