@@ -11,6 +11,8 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/olekukonko/tablewriter"
 )
 
 // envHandler gets the needed enviroment variables: EMAIL, PASS, SF, CLID, CLSE, SECK.
