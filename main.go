@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/rabocse/playing/sftool"
+	"github.com/rabocse/sfcli/sftool"
 )
 
 func main() {

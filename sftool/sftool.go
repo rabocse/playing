@@ -222,7 +222,7 @@ type Records struct {
 }
 
 // unmarshalSF unmarshals the listview response from Salesforce and returns a map.
-func unmarshalSF(cr string) map[int][]string {
+func UnmarshalSF(cr string) map[int][]string {
 
 	// Create a variable of listview type and unmarshal caseResonse on it.
 	res := listview{}
